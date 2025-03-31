@@ -42,18 +42,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // --- Placeholder for Form Submission ---
-    // On contact.html, you might add:
-    const contactForm = document.getElementById('register-form');
-    if (contactForm) {
-        contactForm.addEventListener('submit', function(event) {
-            event.preventDefault(); // Prevent default browser submission
-            console.log('Form submitted! Data would be sent here.');
-            // **IMPORTANT:** You NEED backend code (e.g., PHP, Node.js, Netlify Forms, Formspree)
-            // to actually process this form data (send email, save to database).
-            alert('Thank you for your interest! We will get back to you soon.'); // Simple feedback
-            // Optionally clear the form: this.reset();
-        });
-    }
-
 }); // End DOMContentLoaded
